@@ -12,7 +12,7 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 import ShoppingCart from "./Components/ShoppingCart/ShoppingCart";
 import Profile from "./Components/Profile";
 import Modify from "./Components/ModifyAdmin";
-//import LocalExperiences from "./Components/LocalExperiences/LocalExperiences";
+import LocalExperiences from "./Components/LocalExperiences/LocalExperiences";
 import CreateRoom from "./Components/Create/CreateRoom";
 import CreateComent from "./Components/CreateComment/CreateComment";
 import { Pending } from "./Components/PaymentProcess/Pending";
@@ -36,7 +36,11 @@ function App() {
           {/* <Route exact path="/activities" element={<Reservations/>}/> */}
           <Route exact path="/shoppingcart" element={<ShoppingCart />} />
           <Route exact path="/modify" element={<Modify />} />
+<<<<<<< HEAD
           {/* <Route exact path="/activities" element={<LocalExperiences />} /> */}
+=======
+          <Route exact path="/activities" element={<LocalExperiences />} />
+>>>>>>> parent of 4a54f8f (meky llora parte 9)
           <Route exact path="/createcomment" element={<CreateComent />} />
           <Route exact path="/pending" element={<Pending />} />
           <Route exact path="/success" element={<Success />} />

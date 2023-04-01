@@ -36,7 +36,7 @@ function App() {
           {/* <Route exact path="/activities" element={<Reservations/>}/> */}
           <Route exact path="/shoppingcart" element={<ShoppingCart />} />
           <Route exact path="/modify" element={<Modify />} />
-          //<Route exact path="/activities" element={<LocalExperiences />} />
+          <Route exact path="/activities" element={<LocalExperiences />} />
           <Route exact path="/createcomment" element={<CreateComent />} />
             
           <Route exact path="/pending" element={<Pending />} />

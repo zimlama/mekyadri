@@ -38,6 +38,7 @@ function App() {
           <Route exact path="/modify" element={<Modify />} />
           <Route exact path="/activities" element={<LocalExperiences />} />
           <Route exact path="/createcomment" element={<CreateComent />} />
+            
           <Route exact path="/pending" element={<Pending />} />
           <Route exact path="/success" element={<Success />} />
           <Route exact path="/fail" element={<Error />} />
